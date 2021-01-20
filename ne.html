@@ -6,6 +6,7 @@
 		    .foo {
 			    float:right;
 				padding:12px 14px;
+				margin:-25px;
 			}
 			.foo > a {
 			    padding:14px 16px;
@@ -26,23 +27,23 @@
 			}
 			#pong > form {
 			    position:relative;
-				left:600px;
-				top:300px;
+				left:400px;
+				top:250px;
 			}
 		    #sat {
 			    height:20px;
 				width:10px;
+				margin:50px;
 			    }
 			.mat {
 			    position:relative;
-				left:-50px;
+				left:150px;
 			    margin:25px;
 				padding:2px 2px;
 			}
-			#sat input {
-			    length:120px;
-				height:30px;
-				width:120px:
+			#sat input[type="text"] {
+			    border-radius:25px 25px 25px 25px;
+				height:40px;
 			}			    
 		</style>
 	</head>
@@ -55,11 +56,11 @@
 		<div id="pong">
 		    <form action="www.google.com/search">
 			    <div id="sat">
-				    <input type="text" name="q">
+				    <input type="text" size="75" name="q">
 				</div>
 			<div class="mat">
-                <div class="cat"><input type="submit" value="Google Search">
-				<input type="submit" value="I AM FEELING LUCKY"></div>
+                <div class="cat"><input type="submit" size="25" value="Google Search">
+				<input type="submit" size="25" value="I AM FEELING LUCKY"></div>
 			</div>
 			</form>
 		</div>
