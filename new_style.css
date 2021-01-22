@@ -1,0 +1,49 @@
+.foo {
+	float:right;
+	padding:14px 16px;
+	margin:-10px -4px;
+	font-size:12px;
+}
+.foo > a {
+	padding:14px 16px;
+	font-family:arial;
+	color:black;
+}
+.foo > a > button{
+	background-color:dodgerblue;
+	color:white;
+	border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    background: linear-gradient(top,#4387fd,#4683ea);
+	padding :2px 2px;
+    line-height:25px;
+}
+			
+.wrapper {
+    <!--content: "";-->
+    <!--background: transparent url(MoneyIcon.png) scroll no-repeat 0 0;-->
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    display: block;
+    top:16%;
+    left:32%;
+}
+.wrapper_2 input[type=text],.wrapper_2 button {
+    position:relative;
+	top:350px;
+	left:400px;
+}
+.wrapper_2 button+input[type=submit],.wrapper_2 button+input[type=submit]+input[type=submit] {
+	position:relative;
+	top:425px;
+	left:-50px;
+	margin:5px 5px;
+	padding:5px 5px;
+	background:transparent;
+	ho
+}
